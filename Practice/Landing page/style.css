@@ -1,0 +1,79 @@
+/* base styling */
+
+body {
+	background: rgb(245, 245, 245);
+	color: black;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	font-weight: lighter;
+	color: red;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	font-weight: lighter;
+	color: black;
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+	color: grey;
+}
+
+
+/* custom styling */
+
+#banner {
+	background-image: url(https://source.unsplash.com/random/1300x600);
+	background-size: cover;
+	color: white;
+	text-align: center;
+	text-shadow: 1px 1px 5px black;
+	padding: 150px;
+}
+
+#banner h1 {
+	color: white;
+	font-size: 50px;
+}
+
+#banner p {
+	color: white;
+  	opacity: 0.8;
+  	font-size: 30px;
+  	font-weight: lighter;
+}
+
+#footer {
+	padding: 30px;
+  	background: rgb(30, 30, 30);
+  	color: lightgrey;
+  	text-align: center;
+}
+
+.card{
+  padding: 50px;
+  font-weight: lighter;
+  text-align: center;
+  background: rgb(245, 245, 245);
+}
+
+#footer a {
+	color: lightgrey;
+	font-size: 15px;
+}
+
+#footer a:hover {
+	color: white;
+}
+
